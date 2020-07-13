@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		698880F7247454A400DB44F7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698880F6247454A400DB44F7 /* main.cpp */; };
+		69888100247455AE00DB44F7 /* Option.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698880FE247455AE00DB44F7 /* Option.cpp */; };
+		698881032474565900DB44F7 /* Lattice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698881012474565900DB44F7 /* Lattice.cpp */; };
+		6988812F247456D800DB44F7 /* FullArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69888106247456D800DB44F7 /* FullArray.cpp */; };
+		69888130247456D800DB44F7 /* ArrayMechanisms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69888107247456D800DB44F7 /* ArrayMechanisms.cpp */; };
+		69888131247456D800DB44F7 /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6988810A247456D800DB44F7 /* Array.cpp */; };
+		69888132247456D800DB44F7 /* ArrayStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6988810B247456D800DB44F7 /* ArrayStructure.cpp */; };
+		69888133247456D800DB44F7 /* NormalGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6988810F247456D800DB44F7 /* NormalGenerator.cpp */; };
+		69888134247456D800DB44F7 /* Range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69888112247456D800DB44F7 /* Range.cpp */; };
+		69888135247456D800DB44F7 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69888116247456D800DB44F7 /* Vector.cpp */; };
+		69888136247456D800DB44F7 /* FullMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6988811B247456D800DB44F7 /* FullMatrix.cpp */; };
+		69888137247456D800DB44F7 /* MatrixStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6988811C247456D800DB44F7 /* MatrixStructure.cpp */; };
+		69888138247456D800DB44F7 /* NumericMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6988811E247456D800DB44F7 /* NumericMatrix.cpp */; };
+		69888139247456D800DB44F7 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69888121247456D800DB44F7 /* Matrix.cpp */; };
+		6988813A247456D800DB44F7 /* MatrixMechanisms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69888122247456D800DB44F7 /* MatrixMechanisms.cpp */; };
+		6988813B247456D800DB44F7 /* NestedMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69888123247456D800DB44F7 /* NestedMatrix.cpp */; };
+		69888146247473F300DB44F7 /* BinomialLatticeStrrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69888144247473F300DB44F7 /* BinomialLatticeStrrategy.cpp */; };
+		698881492474B48600DB44F7 /* LatticeMechanisms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698881472474B48600DB44F7 /* LatticeMechanisms.cpp */; };
+		6988814C2474BA3C00DB44F7 /* BinomialMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6988814A2474BA3C00DB44F7 /* BinomialMethod.cpp */; };
+		6988814F2474D9EB00DB44F7 /* EuropeanOptionFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6988814D2474D9EB00DB44F7 /* EuropeanOptionFactory.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		698880F1247454A400DB44F7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		698880F3247454A400DB44F7 /* VI.6 Latice Methods */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "VI.6 Latice Methods"; sourceTree = BUILT_PRODUCTS_DIR; };
+		698880F6247454A400DB44F7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		698880FE247455AE00DB44F7 /* Option.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Option.cpp; sourceTree = "<group>"; };
+		698880FF247455AE00DB44F7 /* Option.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Option.hpp; sourceTree = "<group>"; };
+		698881012474565900DB44F7 /* Lattice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lattice.cpp; sourceTree = "<group>"; };
+		698881022474565900DB44F7 /* Lattice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Lattice.hpp; sourceTree = "<group>"; };
+		69888106247456D800DB44F7 /* FullArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FullArray.cpp; sourceTree = "<group>"; };
+		69888107247456D800DB44F7 /* ArrayMechanisms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayMechanisms.cpp; sourceTree = "<group>"; };
+		69888108247456D800DB44F7 /* Array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
+		69888109247456D800DB44F7 /* ArrayStructure.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ArrayStructure.hpp; sourceTree = "<group>"; };
+		6988810A247456D800DB44F7 /* Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
+		6988810B247456D800DB44F7 /* ArrayStructure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayStructure.cpp; sourceTree = "<group>"; };
+		6988810C247456D800DB44F7 /* FullArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FullArray.hpp; sourceTree = "<group>"; };
+		6988810D247456D800DB44F7 /* ArrayMechanisms.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ArrayMechanisms.hpp; sourceTree = "<group>"; };
+		6988810F247456D800DB44F7 /* NormalGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NormalGenerator.cpp; sourceTree = "<group>"; };
+		69888110247456D800DB44F7 /* NormalGenerator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NormalGenerator.hpp; sourceTree = "<group>"; };
+		69888112247456D800DB44F7 /* Range.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Range.cpp; sourceTree = "<group>"; };
+		69888113247456D800DB44F7 /* Range.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Range.hpp; sourceTree = "<group>"; };
+		69888115247456D800DB44F7 /* Vector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
+		69888116247456D800DB44F7 /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		69888118247456D800DB44F7 /* MatrixMechanisms.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MatrixMechanisms.hpp; sourceTree = "<group>"; };
+		69888119247456D800DB44F7 /* NestedMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NestedMatrix.hpp; sourceTree = "<group>"; };
+		6988811A247456D800DB44F7 /* NumericMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NumericMatrix.hpp; sourceTree = "<group>"; };
+		6988811B247456D800DB44F7 /* FullMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FullMatrix.cpp; sourceTree = "<group>"; };
+		6988811C247456D800DB44F7 /* MatrixStructure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixStructure.cpp; sourceTree = "<group>"; };
+		6988811D247456D800DB44F7 /* Matrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Matrix.hpp; sourceTree = "<group>"; };
+		6988811E247456D800DB44F7 /* NumericMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumericMatrix.cpp; sourceTree = "<group>"; };
+		6988811F247456D800DB44F7 /* FullMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FullMatrix.hpp; sourceTree = "<group>"; };
+		69888120247456D800DB44F7 /* MatrixStructure.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MatrixStructure.hpp; sourceTree = "<group>"; };
+		69888121247456D800DB44F7 /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		69888122247456D800DB44F7 /* MatrixMechanisms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixMechanisms.cpp; sourceTree = "<group>"; };
+		69888123247456D800DB44F7 /* NestedMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NestedMatrix.cpp; sourceTree = "<group>"; };
+		69888144247473F300DB44F7 /* BinomialLatticeStrrategy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinomialLatticeStrrategy.cpp; sourceTree = "<group>"; };
+		69888145247473F300DB44F7 /* BinomialLatticeStrrategy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinomialLatticeStrrategy.hpp; sourceTree = "<group>"; };
+		698881472474B48600DB44F7 /* LatticeMechanisms.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LatticeMechanisms.cpp; sourceTree = "<group>"; };
+		698881482474B48600DB44F7 /* LatticeMechanisms.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LatticeMechanisms.hpp; sourceTree = "<group>"; };
+		6988814A2474BA3C00DB44F7 /* BinomialMethod.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinomialMethod.cpp; sourceTree = "<group>"; };
+		6988814B2474BA3C00DB44F7 /* BinomialMethod.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinomialMethod.hpp; sourceTree = "<group>"; };
+		6988814D2474D9EB00DB44F7 /* EuropeanOptionFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EuropeanOptionFactory.cpp; sourceTree = "<group>"; };
+		6988814E2474D9EB00DB44F7 /* EuropeanOptionFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EuropeanOptionFactory.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		698880F0247454A400DB44F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		698880EA247454A400DB44F7 = {
+			isa = PBXGroup;
+			children = (
+				698880F5247454A400DB44F7 /* VI.6 Latice Methods */,
+				698880F4247454A400DB44F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		698880F4247454A400DB44F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				698880F3247454A400DB44F7 /* VI.6 Latice Methods */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		698880F5247454A400DB44F7 /* VI.6 Latice Methods */ = {
+			isa = PBXGroup;
+			children = (
+				698880F6247454A400DB44F7 /* main.cpp */,
+				69888144247473F300DB44F7 /* BinomialLatticeStrrategy.cpp */,
+				69888145247473F300DB44F7 /* BinomialLatticeStrrategy.hpp */,
+				6988814A2474BA3C00DB44F7 /* BinomialMethod.cpp */,
+				6988814B2474BA3C00DB44F7 /* BinomialMethod.hpp */,
+				698881012474565900DB44F7 /* Lattice.cpp */,
+				698881022474565900DB44F7 /* Lattice.hpp */,
+				698881472474B48600DB44F7 /* LatticeMechanisms.cpp */,
+				698881482474B48600DB44F7 /* LatticeMechanisms.hpp */,
+				6988814D2474D9EB00DB44F7 /* EuropeanOptionFactory.cpp */,
+				6988814E2474D9EB00DB44F7 /* EuropeanOptionFactory.hpp */,
+				698880FE247455AE00DB44F7 /* Option.cpp */,
+				698880FF247455AE00DB44F7 /* Option.hpp */,
+				69888104247456D800DB44F7 /* myUtilities */,
+			);
+			path = "VI.6 Latice Methods";
+			sourceTree = "<group>";
+		};
+		69888104247456D800DB44F7 /* myUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				69888114247456D800DB44F7 /* Vector */,
+				69888105247456D800DB44F7 /* Arrays */,
+				6988810E247456D800DB44F7 /* RandomNumberGenerator */,
+				69888111247456D800DB44F7 /* Geometry */,
+				69888117247456D800DB44F7 /* Matrix */,
+			);
+			path = myUtilities;
+			sourceTree = "<group>";
+		};
+		69888105247456D800DB44F7 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				69888107247456D800DB44F7 /* ArrayMechanisms.cpp */,
+				6988810D247456D800DB44F7 /* ArrayMechanisms.hpp */,
+				6988810B247456D800DB44F7 /* ArrayStructure.cpp */,
+				69888109247456D800DB44F7 /* ArrayStructure.hpp */,
+				69888106247456D800DB44F7 /* FullArray.cpp */,
+				6988810C247456D800DB44F7 /* FullArray.hpp */,
+				6988810A247456D800DB44F7 /* Array.cpp */,
+				69888108247456D800DB44F7 /* Array.hpp */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
+		6988810E247456D800DB44F7 /* RandomNumberGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				6988810F247456D800DB44F7 /* NormalGenerator.cpp */,
+				69888110247456D800DB44F7 /* NormalGenerator.hpp */,
+			);
+			path = RandomNumberGenerator;
+			sourceTree = "<group>";
+		};
+		69888111247456D800DB44F7 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				69888112247456D800DB44F7 /* Range.cpp */,
+				69888113247456D800DB44F7 /* Range.hpp */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		69888114247456D800DB44F7 /* Vector */ = {
+			isa = PBXGroup;
+			children = (
+				69888116247456D800DB44F7 /* Vector.cpp */,
+				69888115247456D800DB44F7 /* Vector.hpp */,
+			);
+			path = Vector;
+			sourceTree = "<group>";
+		};
+		69888117247456D800DB44F7 /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				6988811E247456D800DB44F7 /* NumericMatrix.cpp */,
+				6988811A247456D800DB44F7 /* NumericMatrix.hpp */,
+				6988811B247456D800DB44F7 /* FullMatrix.cpp */,
+				6988811F247456D800DB44F7 /* FullMatrix.hpp */,
+				6988811C247456D800DB44F7 /* MatrixStructure.cpp */,
+				69888120247456D800DB44F7 /* MatrixStructure.hpp */,
+				69888121247456D800DB44F7 /* Matrix.cpp */,
+				6988811D247456D800DB44F7 /* Matrix.hpp */,
+				69888122247456D800DB44F7 /* MatrixMechanisms.cpp */,
+				69888118247456D800DB44F7 /* MatrixMechanisms.hpp */,
+				69888123247456D800DB44F7 /* NestedMatrix.cpp */,
+				69888119247456D800DB44F7 /* NestedMatrix.hpp */,
+			);
+			path = Matrix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		698880F2247454A400DB44F7 /* VI.6 Latice Methods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 698880FA247454A400DB44F7 /* Build configuration list for PBXNativeTarget "VI.6 Latice Methods" */;
+			buildPhases = (
+				698880EF247454A400DB44F7 /* Sources */,
+				698880F0247454A400DB44F7 /* Frameworks */,
+				698880F1247454A400DB44F7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VI.6 Latice Methods";
+			productName = "VI.6 Latice Methods";
+			productReference = 698880F3247454A400DB44F7 /* VI.6 Latice Methods */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		698880EB247454A400DB44F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Zhehao Li";
+				TargetAttributes = {
+					698880F2247454A400DB44F7 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 698880EE247454A400DB44F7 /* Build configuration list for PBXProject "VI.6 Latice Methods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 698880EA247454A400DB44F7;
+			productRefGroup = 698880F4247454A400DB44F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				698880F2247454A400DB44F7 /* VI.6 Latice Methods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		698880EF247454A400DB44F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69888139247456D800DB44F7 /* Matrix.cpp in Sources */,
+				6988812F247456D800DB44F7 /* FullArray.cpp in Sources */,
+				698881032474565900DB44F7 /* Lattice.cpp in Sources */,
+				69888146247473F300DB44F7 /* BinomialLatticeStrrategy.cpp in Sources */,
+				69888135247456D800DB44F7 /* Vector.cpp in Sources */,
+				69888132247456D800DB44F7 /* ArrayStructure.cpp in Sources */,
+				69888100247455AE00DB44F7 /* Option.cpp in Sources */,
+				69888133247456D800DB44F7 /* NormalGenerator.cpp in Sources */,
+				6988814C2474BA3C00DB44F7 /* BinomialMethod.cpp in Sources */,
+				69888137247456D800DB44F7 /* MatrixStructure.cpp in Sources */,
+				69888138247456D800DB44F7 /* NumericMatrix.cpp in Sources */,
+				6988813B247456D800DB44F7 /* NestedMatrix.cpp in Sources */,
+				698880F7247454A400DB44F7 /* main.cpp in Sources */,
+				69888130247456D800DB44F7 /* ArrayMechanisms.cpp in Sources */,
+				6988814F2474D9EB00DB44F7 /* EuropeanOptionFactory.cpp in Sources */,
+				69888131247456D800DB44F7 /* Array.cpp in Sources */,
+				698881492474B48600DB44F7 /* LatticeMechanisms.cpp in Sources */,
+				69888134247456D800DB44F7 /* Range.cpp in Sources */,
+				6988813A247456D800DB44F7 /* MatrixMechanisms.cpp in Sources */,
+				69888136247456D800DB44F7 /* FullMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		698880F8247454A400DB44F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		698880F9247454A400DB44F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		698880FB247454A400DB44F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = "";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /opt/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		698880FC247454A400DB44F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = /opt/local/include;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /opt/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		698880EE247454A400DB44F7 /* Build configuration list for PBXProject "VI.6 Latice Methods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				698880F8247454A400DB44F7 /* Debug */,
+				698880F9247454A400DB44F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		698880FA247454A400DB44F7 /* Build configuration list for PBXNativeTarget "VI.6 Latice Methods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				698880FB247454A400DB44F7 /* Debug */,
+				698880FC247454A400DB44F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 698880EB247454A400DB44F7 /* Project object */;
+}

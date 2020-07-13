@@ -1,0 +1,27 @@
+Find the Price, Delta, and Gamma Hi:
+
+Spot:  100
+Strike:  120
+r = 4%
+T = 1.5
+sig = .4
+b = 0
+ xDelta_Call = 0.594629, Delta_Put = -0.356601
+
+Find the price of the below Put using MC:
+
+Spot:  100
+Strike:  120
+r = 4%
+T = 1.5
+sig = .4. .  FDM  ()
+b = r
+
+Find the price of the below Put using FDM:
+
+Spot:  100
+Strike:  120
+r = 4%
+T = 1
+sig = .4
+b = r

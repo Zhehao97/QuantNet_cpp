@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69888073246EEB1700DB44F7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69888072246EEB1700DB44F7 /* main.cpp */; };
+		6988808C246F278400DB44F7 /* NormalGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69888087246F278400DB44F7 /* NormalGenerator.cpp */; };
+		6988808D246F278400DB44F7 /* Range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6988808A246F278400DB44F7 /* Range.cpp */; };
+		69888091246F286000DB44F7 /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6988808F246F286000DB44F7 /* Array.cpp */; };
+		69888094246F2E5E00DB44F7 /* ArrayStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69888092246F2E5E00DB44F7 /* ArrayStructure.cpp */; };
+		69888097246F2EAD00DB44F7 /* ArrayMechanisms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69888095246F2EAD00DB44F7 /* ArrayMechanisms.cpp */; };
+		6988809A246F4BC300DB44F7 /* FullArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69888098246F4BC300DB44F7 /* FullArray.cpp */; };
+		6988809E2470291300DB44F7 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6988809C2470291300DB44F7 /* Vector.cpp */; };
+		698880E22473940A00DB44F7 /* TestMultiCurve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698880D82473940A00DB44F7 /* TestMultiCurve.cpp */; };
+		698880E32473940A00DB44F7 /* TestVectorExcel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698880D92473940A00DB44F7 /* TestVectorExcel.cpp */; };
+		698880E42473940A00DB44F7 /* TestSingleCurve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698880DA2473940A00DB44F7 /* TestSingleCurve.cpp */; };
+		698880E52473940A00DB44F7 /* ExcelHelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698880DC2473940A00DB44F7 /* ExcelHelloWorld.cpp */; };
+		698880E62473940A00DB44F7 /* TestTwoCurve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698880DD2473940A00DB44F7 /* TestTwoCurve.cpp */; };
+		698880E72473940A00DB44F7 /* ExcelDriverLite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698880DE2473940A00DB44F7 /* ExcelDriverLite.cpp */; };
+		698880E82473940A00DB44F7 /* TestMatrixExcel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698880DF2473940A00DB44F7 /* TestMatrixExcel.cpp */; };
+		698880E92473940A00DB44F7 /* ExcelImports.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698880E12473940A00DB44F7 /* ExcelImports.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6988806D246EEB1700DB44F7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6988806F246EEB1700DB44F7 /* VI.5 Finite Difference Methods */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "VI.5 Finite Difference Methods"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69888072246EEB1700DB44F7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6988807A246F20C700DB44F7 /* Mesher.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mesher.hpp; sourceTree = "<group>"; };
+		69888087246F278400DB44F7 /* NormalGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NormalGenerator.cpp; sourceTree = "<group>"; };
+		69888088246F278400DB44F7 /* NormalGenerator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NormalGenerator.hpp; sourceTree = "<group>"; };
+		6988808A246F278400DB44F7 /* Range.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Range.cpp; sourceTree = "<group>"; };
+		6988808B246F278400DB44F7 /* Range.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Range.hpp; sourceTree = "<group>"; };
+		6988808F246F286000DB44F7 /* Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
+		69888090246F286000DB44F7 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
+		69888092246F2E5E00DB44F7 /* ArrayStructure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayStructure.cpp; sourceTree = "<group>"; };
+		69888093246F2E5E00DB44F7 /* ArrayStructure.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayStructure.hpp; sourceTree = "<group>"; };
+		69888095246F2EAD00DB44F7 /* ArrayMechanisms.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayMechanisms.cpp; sourceTree = "<group>"; };
+		69888096246F2EAD00DB44F7 /* ArrayMechanisms.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayMechanisms.hpp; sourceTree = "<group>"; };
+		69888098246F4BC300DB44F7 /* FullArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FullArray.cpp; sourceTree = "<group>"; };
+		69888099246F4BC300DB44F7 /* FullArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FullArray.hpp; sourceTree = "<group>"; };
+		6988809C2470291300DB44F7 /* Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		6988809D2470291300DB44F7 /* Vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
+		698880B72472EC0D00DB44F7 /* FDM.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FDM.hpp; sourceTree = "<group>"; };
+		698880BA24736ED900DB44F7 /* FDMDirector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FDMDirector.hpp; sourceTree = "<group>"; };
+		698880D6247393DC00DB44F7 /* ParabolicPDE.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ParabolicPDE.hpp; sourceTree = "<group>"; };
+		698880D82473940A00DB44F7 /* TestMultiCurve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestMultiCurve.cpp; sourceTree = "<group>"; };
+		698880D92473940A00DB44F7 /* TestVectorExcel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestVectorExcel.cpp; sourceTree = "<group>"; };
+		698880DA2473940A00DB44F7 /* TestSingleCurve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestSingleCurve.cpp; sourceTree = "<group>"; };
+		698880DB2473940A00DB44F7 /* ExcelDriverLite.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ExcelDriverLite.hpp; sourceTree = "<group>"; };
+		698880DC2473940A00DB44F7 /* ExcelHelloWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExcelHelloWorld.cpp; sourceTree = "<group>"; };
+		698880DD2473940A00DB44F7 /* TestTwoCurve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestTwoCurve.cpp; sourceTree = "<group>"; };
+		698880DE2473940A00DB44F7 /* ExcelDriverLite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExcelDriverLite.cpp; sourceTree = "<group>"; };
+		698880DF2473940A00DB44F7 /* TestMatrixExcel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestMatrixExcel.cpp; sourceTree = "<group>"; };
+		698880E02473940A00DB44F7 /* Utilities.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Utilities.hpp; sourceTree = "<group>"; };
+		698880E12473940A00DB44F7 /* ExcelImports.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExcelImports.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6988806C246EEB1700DB44F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69888066246EEB1700DB44F7 = {
+			isa = PBXGroup;
+			children = (
+				69888071246EEB1700DB44F7 /* VI.5 Finite Difference Methods */,
+				69888070246EEB1700DB44F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69888070246EEB1700DB44F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6988806F246EEB1700DB44F7 /* VI.5 Finite Difference Methods */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69888071246EEB1700DB44F7 /* VI.5 Finite Difference Methods */ = {
+			isa = PBXGroup;
+			children = (
+				69888072246EEB1700DB44F7 /* main.cpp */,
+				698880D6247393DC00DB44F7 /* ParabolicPDE.hpp */,
+				698880BA24736ED900DB44F7 /* FDMDirector.hpp */,
+				698880B72472EC0D00DB44F7 /* FDM.hpp */,
+				6988807A246F20C700DB44F7 /* Mesher.hpp */,
+				69888085246F278400DB44F7 /* myUtilities */,
+			);
+			path = "VI.5 Finite Difference Methods";
+			sourceTree = "<group>";
+		};
+		69888085246F278400DB44F7 /* myUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				698880D72473940A00DB44F7 /* ExcelDriver */,
+				6988809B2470290700DB44F7 /* Vector */,
+				6988808E246F27A100DB44F7 /* Arrays */,
+				69888086246F278400DB44F7 /* RandomNumberGenerator */,
+				69888089246F278400DB44F7 /* Geometry */,
+			);
+			path = myUtilities;
+			sourceTree = "<group>";
+		};
+		69888086246F278400DB44F7 /* RandomNumberGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				69888087246F278400DB44F7 /* NormalGenerator.cpp */,
+				69888088246F278400DB44F7 /* NormalGenerator.hpp */,
+			);
+			path = RandomNumberGenerator;
+			sourceTree = "<group>";
+		};
+		69888089246F278400DB44F7 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				6988808A246F278400DB44F7 /* Range.cpp */,
+				6988808B246F278400DB44F7 /* Range.hpp */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		6988808E246F27A100DB44F7 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				6988808F246F286000DB44F7 /* Array.cpp */,
+				69888098246F4BC300DB44F7 /* FullArray.cpp */,
+				69888099246F4BC300DB44F7 /* FullArray.hpp */,
+				69888090246F286000DB44F7 /* Array.hpp */,
+				69888092246F2E5E00DB44F7 /* ArrayStructure.cpp */,
+				69888093246F2E5E00DB44F7 /* ArrayStructure.hpp */,
+				69888095246F2EAD00DB44F7 /* ArrayMechanisms.cpp */,
+				69888096246F2EAD00DB44F7 /* ArrayMechanisms.hpp */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
+		6988809B2470290700DB44F7 /* Vector */ = {
+			isa = PBXGroup;
+			children = (
+				6988809C2470291300DB44F7 /* Vector.cpp */,
+				6988809D2470291300DB44F7 /* Vector.hpp */,
+			);
+			path = Vector;
+			sourceTree = "<group>";
+		};
+		698880D72473940A00DB44F7 /* ExcelDriver */ = {
+			isa = PBXGroup;
+			children = (
+				698880D82473940A00DB44F7 /* TestMultiCurve.cpp */,
+				698880D92473940A00DB44F7 /* TestVectorExcel.cpp */,
+				698880DA2473940A00DB44F7 /* TestSingleCurve.cpp */,
+				698880DB2473940A00DB44F7 /* ExcelDriverLite.hpp */,
+				698880DC2473940A00DB44F7 /* ExcelHelloWorld.cpp */,
+				698880DD2473940A00DB44F7 /* TestTwoCurve.cpp */,
+				698880DE2473940A00DB44F7 /* ExcelDriverLite.cpp */,
+				698880DF2473940A00DB44F7 /* TestMatrixExcel.cpp */,
+				698880E02473940A00DB44F7 /* Utilities.hpp */,
+				698880E12473940A00DB44F7 /* ExcelImports.cpp */,
+			);
+			path = ExcelDriver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6988806E246EEB1700DB44F7 /* VI.5 Finite Difference Methods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69888076246EEB1700DB44F7 /* Build configuration list for PBXNativeTarget "VI.5 Finite Difference Methods" */;
+			buildPhases = (
+				6988806B246EEB1700DB44F7 /* Sources */,
+				6988806C246EEB1700DB44F7 /* Frameworks */,
+				6988806D246EEB1700DB44F7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VI.5 Finite Difference Methods";
+			productName = "VI.5 Finite Difference Methods";
+			productReference = 6988806F246EEB1700DB44F7 /* VI.5 Finite Difference Methods */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69888067246EEB1700DB44F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Zhehao Li";
+				TargetAttributes = {
+					6988806E246EEB1700DB44F7 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6988806A246EEB1700DB44F7 /* Build configuration list for PBXProject "VI.5 Finite Difference Methods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69888066246EEB1700DB44F7;
+			productRefGroup = 69888070246EEB1700DB44F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6988806E246EEB1700DB44F7 /* VI.5 Finite Difference Methods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6988806B246EEB1700DB44F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698880E92473940A00DB44F7 /* ExcelImports.cpp in Sources */,
+				6988809A246F4BC300DB44F7 /* FullArray.cpp in Sources */,
+				69888073246EEB1700DB44F7 /* main.cpp in Sources */,
+				69888094246F2E5E00DB44F7 /* ArrayStructure.cpp in Sources */,
+				69888097246F2EAD00DB44F7 /* ArrayMechanisms.cpp in Sources */,
+				698880E42473940A00DB44F7 /* TestSingleCurve.cpp in Sources */,
+				698880E22473940A00DB44F7 /* TestMultiCurve.cpp in Sources */,
+				6988809E2470291300DB44F7 /* Vector.cpp in Sources */,
+				6988808C246F278400DB44F7 /* NormalGenerator.cpp in Sources */,
+				6988808D246F278400DB44F7 /* Range.cpp in Sources */,
+				698880E72473940A00DB44F7 /* ExcelDriverLite.cpp in Sources */,
+				698880E52473940A00DB44F7 /* ExcelHelloWorld.cpp in Sources */,
+				698880E82473940A00DB44F7 /* TestMatrixExcel.cpp in Sources */,
+				698880E32473940A00DB44F7 /* TestVectorExcel.cpp in Sources */,
+				698880E62473940A00DB44F7 /* TestTwoCurve.cpp in Sources */,
+				69888091246F286000DB44F7 /* Array.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		69888074246EEB1700DB44F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		69888075246EEB1700DB44F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		69888077246EEB1700DB44F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = /opt/local/include;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /opt/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69888078246EEB1700DB44F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = /opt/local/include;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /opt/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6988806A246EEB1700DB44F7 /* Build configuration list for PBXProject "VI.5 Finite Difference Methods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69888074246EEB1700DB44F7 /* Debug */,
+				69888075246EEB1700DB44F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69888076246EEB1700DB44F7 /* Build configuration list for PBXNativeTarget "VI.5 Finite Difference Methods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69888077246EEB1700DB44F7 /* Debug */,
+				69888078246EEB1700DB44F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69888067246EEB1700DB44F7 /* Project object */;
+}

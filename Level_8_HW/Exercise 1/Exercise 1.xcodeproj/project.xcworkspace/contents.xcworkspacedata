@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../Exercise 1/Array.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../Exercise 1/Array.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:../Exercise 1/ArrayException.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../Exercise 1/ArrayException.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:../Exercise 1/Circle.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../Exercise 1/Circle.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:../Exercise 1/Line.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../Exercise 1/Line.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:../Exercise 1/OutOfBoundsException.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../Exercise 1/OutOfBoundsException.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:../Exercise 1/Point.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../Exercise 1/Point.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:../Exercise 1/Shape.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../Exercise 1/Shape.hpp">
+   </FileRef>
+   <FileRef
+      location = "self:Exercise 1.xcodeproj">
+   </FileRef>
+</Workspace>
